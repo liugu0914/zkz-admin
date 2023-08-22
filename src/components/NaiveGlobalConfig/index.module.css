@@ -1,0 +1,14 @@
+.zkz-global-config {
+  @apply h-full w-full min-h-[768px] min-w-[1024px];
+}
+
+:global {
+  ::selection {
+    color: #fff;
+    background: var(--zkz-color);
+  }
+
+  .zkz-layout-shadow {
+    box-shadow: var(--zkz-layout-shadow);
+  }
+}

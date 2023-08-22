@@ -1,0 +1,33 @@
+.mix-menu {
+  @apply h-full flex;
+
+  :global {
+    .n-list.n-list--bordered .n-list-item,
+    .n-list.n-list--hoverable .n-list-item {
+      padding: 8px 4px;
+      &.active {
+        color: var(--zkz-color);
+        background-color: var(--zkz-color-1);
+      }
+      /* :global(.dark) &.active {
+        background-color: var(--zkz-color-10);
+      } */
+      :global(.zkz-sider-dark) &.active {
+        color: inherit;
+        background-color: var(--zkz-color);
+      }
+    }
+  }
+
+  .mix-menu-main {
+    @apply h-full;
+  }
+
+  .mix-menu-extra {
+    @apply h-full transition-all duration-300 w-0;
+
+    &.show-sub-extra {
+      width: var(--zkz-sider-mix-sub-width);
+    }
+  }
+}

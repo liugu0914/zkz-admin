@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "#/*": ["./*"]
+    },
+    "types": ["node", "vite/client", "naive-ui/volar", "vite-plugin-svg-icons/client"],
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": { "customMatcher": "\\.module\\.(c|le|sa|sc|pc)ss$", "classnameTransform": "camelCaseOnly" }
+      }
+    ]
+  },
+  "include": ["src/**/*", "types/**/*", "build/**/*", "mock/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.js"]
+  //  "references": [{ "path": "./tsconfig.node.json" }]
+}

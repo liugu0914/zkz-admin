@@ -1,0 +1,13 @@
+.table-alter {
+  background-color: var(--zkz-color-1);
+
+  :global {
+    .n-alert__icon {
+      color: var(--zkz-color);
+    }
+  }
+
+  /* :global(.dark) & {
+    background-color: var(--zkz-color-10);
+  } */
+}

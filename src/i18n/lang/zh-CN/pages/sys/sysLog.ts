@@ -1,0 +1,21 @@
+export default {
+  serviceId: '服务ID',
+  userName: '用户名称',
+  title: '标题',
+  type: '日志类型',
+  method: '请求方法',
+  requestUri: '请求地址',
+  time: '执行时间(ms)',
+  ip: 'IP地址',
+  params: '请求参数',
+  result: '结果',
+  operateTime: '操作时间',
+  normalTag: '普通',
+  queryTag: '查询',
+  saveTag: '保存',
+  addTag: '添加',
+  updateTag: '更新',
+  deleteTag: '删除',
+  uploadTag: '上传',
+  downloadTag: '下载'
+}

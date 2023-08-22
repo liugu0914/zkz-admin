@@ -1,0 +1,72 @@
+{
+  "id": "2171028",
+  "name": "vue-admin",
+  "font_family": "cs",
+  "css_prefix_text": "cs-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1611119",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4521283",
+      "name": "组织群组",
+      "font_class": "zuzhiqunzu",
+      "unicode": "ebd8",
+      "unicode_decimal": 60376
+    },
+    {
+      "icon_id": "4700542",
+      "name": "权限",
+      "font_class": "authority",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5055858",
+      "name": "角色管理",
+      "font_class": "jiaoseguanli",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "11121397",
+      "name": "角色管理",
+      "font_class": "jiaoseguanli1",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "24583023",
+      "name": "应用",
+      "font_class": "yingyong",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "29328053",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "16910889",
+      "name": "jiopeel",
+      "font_class": "login",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9653736",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    }
+  ]
+}

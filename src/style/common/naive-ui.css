@@ -1,0 +1,10 @@
+/* 菜单选中颜色 */
+
+/* card  */
+.n-card {
+  box-shadow: var(--zkz-layout-shadow);
+
+  .n-card__content {
+    @apply h-full w-full;
+  }
+}

@@ -1,0 +1,50 @@
+html,
+body,
+#app {
+  @apply h-full w-full  text-[14px];
+}
+
+/* 去除Edge默认密码显示 */
+::-ms-reveal {
+  @apply hidden;
+}
+
+/* 灰色模式 */
+html.gray-mode,
+body.gray-mode {
+  filter: grayscale(100%);
+  filter: progid:dximagetransform.microsoft.basicimage(grayscale=1);
+}
+
+/* 色弱模式 */
+html.color-weak,
+body.color-weak {
+  filter: invert(80%);
+}
+
+html,
+body {
+  /* 滚动条 */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #b9bbba;
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #949595;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+
+@layer base {
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    @apply block align-baseline;
+  }
+}
+@tailwind components;
+@tailwind utilities;
