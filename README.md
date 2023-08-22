@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/zclzone/vue-naive-admin">
+  <a href="https://github.com/liugu0914/zkz-admin">
     <img alt="ZKZ Admin Logo" width="200" src="./src/assets/svg/logo.svg">
   </a>
 </p>
@@ -26,7 +26,7 @@
 
 ### 预览
 
-[http://www.zhikehzui.com](http://www.zhikehzui.com)
+[http://www.zhikehzui.com/zkz](http://www.zhikehzui.com/zkz)
 
 ### 快速开始
 
