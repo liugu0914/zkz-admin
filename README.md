@@ -4,11 +4,6 @@
   </a>
 </p>
 
-<!-- <p align='center'>
-  <b>中文</b> |
-  <a href="https://github.com/zclzone/vue-naive-admin/blob/main/README.EN.md">English</a>
-</p> -->
-
 ### 简介
 
 [ZKZ Admin](https://github.com/liugu0914/zkz-admin) 是一个`学习型`中后台管理项目，用于理解和学习新的前端框架和知识。基于 `Vue3、Vite、TypeScript、Pinia、TailwindCSS 和 Naive UI` 等前端最新技术栈。
